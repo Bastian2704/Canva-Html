@@ -2,6 +2,7 @@
 
 This challenge introduced me to the HTML5 Canvas API, allowing me to experiment with interactive drawing using JavaScript.
 The result is a colorful drawing canvas where the stroke changes color and thickness dynamically as you draw.
+Also I used other video that uses CSS variables, and used it here for my text
 
 # Technologies Used
 
@@ -11,8 +12,14 @@ CSS – Basic styling
 
 JavaScript (Canvas API) – Interactive drawing logic
 
-### Screenshots / GIF
+### Screenshots
+<img width="1895" height="934" alt="image" src="https://github.com/user-attachments/assets/08775136-7d91-4bd2-a0b1-5bd119c00618" />
 
+---
+
+<img width="1892" height="920" alt="image" src="https://github.com/user-attachments/assets/cc3924ce-4346-4059-96b8-021ebfc368f5" />
+
+---
 
 # How to Install or Run Locally
 
@@ -34,6 +41,8 @@ Use Live Server in VS Code
 
 ## No extra dependencies are required.
 
-Link al despliegue del proyecto.
+# Deploy Link
+https://canvahtmlchallenge.netlify.app/
 
-Autor (nombre completo).
+# Author
+Sebastian Roberto Abad Contreras
