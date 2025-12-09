@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HTML5 Canvas</title>
+  <title>Canvas Challenge</title>
   <link rel="icon" href="https://fav.farm/✅" />
 </head>
 <body>
+<div class="title-container">
+<h1>Canvas Challenge</h1>
+<h2>Sebastian Abad</h2>
+</div>
 <canvas id="draw" width="800" height="800"></canvas>
 <script>
 const canvas = document.querySelector('#draw');
@@ -49,6 +53,8 @@ function draw(e) {
   } else {
     ctx.lineWidth--;
   }
+  document.documentElement.style.setProperty('--text-color', `hsl(${hue}, 100%, 50%)`);
+
 
 }
 
@@ -62,11 +68,25 @@ canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false);
 
+
 </script>
 
 <style>
+  :root {
+    --text-color: #000
+  }
+
   html, body {
     margin: 0;
+  }
+  .title-container {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    color: var(--text-color)
   }
 </style>
 
